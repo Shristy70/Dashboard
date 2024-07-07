@@ -1,0 +1,14 @@
+{
+    "emp":[
+        {
+            "id":1,
+            "emp_name":"shristy",
+            "location":"bpl"
+        },
+        {
+            "id":1,
+            "emp_name":"shristy",
+            "location":"bpl"
+        }
+    ]
+}

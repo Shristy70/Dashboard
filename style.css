@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Poetsen+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+}
+html {
+  font-size: 14px;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.left {
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(80, 79, 95);
+  color: azure;
+}
+.right {
+  background-color: gainsboro;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.left h3 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: azure;
+}
+.left .list {
+  padding-top: 60px;
+}
+.list ul {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.list li {
+  padding-left: 5px;
+  padding-bottom: 30px;
+}
+.list ul li a {
+  padding: 10px;
+  color: azure;
+}
+.list button {
+  color: azure;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(153, 153, 153);
+}
+.nav {
+  padding-top: 10px;
+  background-color: rgb(80, 79, 95);
+  color: azure;
+}
+.over i {
+  padding-left: 5px;
+}
+.over h3 {
+  display: inline;
+  font-size: 30px;
+}
+.search input {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.search i {
+  font-size: 10px;
+  padding: 10px 16px;
+  border: 1px solid rgb(131, 128, 128);
+  border-radius: 10px;
+  color: azure;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile .img img {
+  width: 50px;
+  border-radius: 50%;
+}
+.profile .name {
+  padding-left: 10px;
+  font-size: 30px;
+}
+.box1 {
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(187, 185, 185);
+  width: 500px;
+  height: 250px;
+  margin-left: 70px;
+  background-color: rgb(187, 186, 189);
+}
+.box1 .head {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.head button {
+  padding: 10px 15px;
+  border: 1px solid grey;
+}
+.today {
+  padding-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.low1 {
+  padding-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: palevioletred;
+}
+
+.low2 {
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(241, 157, 157);
+}
+.low3 {
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: plum;
+}
+.low4 {
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: palegreen;
+}
+
+.lowerbox {
+  display: flex;
+}
+
+.box2 {
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(187, 185, 185);
+  width: 500px;
+  margin-left: 80px;
+  height: 250px;
+  object-fit: cover;
+}
+.box2 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+.box3 {
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(187, 185, 185);
+  width: 500px;
+  margin-left: 80px;
+  height: 250px;
+  object-fit: cover;
+}
+.box3 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+.box4 {
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(187, 185, 185);
+  width: 250;
+  margin-left: 50px;
+  height: 250px;
+  object-fit: cover;
+}
+.box4 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+.box5 {
+  border-radius: 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(187, 185, 185);
+  width: 250;
+  margin-left: 50px;
+  height: 250px;
+  object-fit: cover;
+  background-color: azure;
+}
+.box5 img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+.layer1 {
+  display: flex;
+}
+.layer2 {
+  display: flex;
+}
