@@ -1,14 +1,63 @@
 {
-    "emp":[
-        {
-            "id":1,
-            "emp_name":"shristy",
-            "location":"bpl"
-        },
-        {
-            "id":1,
-            "emp_name":"shristy",
-            "location":"bpl"
-        }
-    ]
+  "emp": [
+    {
+      "id": 1,
+      "emp_name": "shristy",
+      "course": "web development",
+      "location": "bpl"
+    },
+    {
+      "id": 1,
+      "emp_name": "ravikash",
+      "course": "web development",
+      "location": "bhopal"
+    },
+    {
+      "id": 3,
+      "emp_name": "priyansh",
+      "course": "web development",
+      "location": "bhopal"
+    },
+    {
+      "id": 4,
+      "emp_name": "ragini",
+      "course": "web development",
+      "location": "bhopal"
+    },
+    {
+      "id": 5,
+      "emp_name": "akansha",
+      "course": "web development",
+      "location": "bhopal"
+    },
+    {
+      "id": 6,
+      "emp_name": "aastha",
+      "course": "web development",
+      "location": "bpl"
+    },
+    {
+      "id": 7,
+      "emp_name": "shivansh",
+      "location": "bpl"
+    },
+    {
+      "id": 8,
+      "emp_name": "Rohan",
+      "course": "web development",
+      "location": "bpl"
+    },
+    {
+      "id": 9,
+      "emp_name": "khushi",
+      "course": "web development",
+      "location": "bpl"
+    },
+    {
+      "id": 10,
+      "emp_name": "shivu",
+      "course": "web development",
+      "location": "bpl"
+    }
+  ]
 }
