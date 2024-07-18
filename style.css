@@ -30,6 +30,24 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.left .profile h3 {
+  font-family: "Dancing Script", cursive;
+}
+.left .admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 3px solid rgb(76, 73, 73);
+  border-right: 2px solid gray;
+}
+.left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 40px;
+  border: 3px solid yellow;
+}
 .left h3 {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
@@ -38,21 +56,31 @@ html {
   color: azure;
 }
 .left .list {
-  padding-top: 60px;
+  padding-top: 40px;
 }
-.list ul {
-  padding-left: 20px;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+.list h1 {
+  padding-left: 60px;
+  font-weight: 400;
+  border-bottom: 3px solid rgb(67, 67, 67);
 }
 .list li {
   padding-left: 5px;
   padding-bottom: 30px;
 }
 .list ul li a {
-  padding: 10px;
+  padding: 20px;
   color: azure;
 }
+.list ul {
+  font-size: 20px;
+  padding-top: 50px;
+}
+.list i {
+  margin-right: 10px;
+  margin-left: 30px;
+  color: rgb(238, 214, 55);
+}
+
 .list button {
   color: azure;
   padding: 10px 20px;
@@ -67,12 +95,32 @@ html {
   background-color: rgb(80, 79, 95);
   color: azure;
 }
+.nav h2 {
+  color: rgb(240, 241, 234);
+  padding-right: 20px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.over img {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: 3px solid #f8fb32;
+}
+
 .over i {
   padding-left: 5px;
 }
 .over h3 {
   display: inline;
-  font-size: 30px;
+  font-size: 28px;
 }
 .search input {
   border: 1px solid black;
@@ -106,7 +154,7 @@ html {
   width: 500px;
   height: 250px;
   margin-left: 70px;
-  background-color: rgb(187, 186, 189);
+  background-color: rgb(196, 196, 199);
 }
 .box1 .head {
   display: flex;
@@ -161,7 +209,7 @@ html {
 .box2 {
   border-radius: 20px;
   margin-top: 50px;
-  border: 1px solid rgb(187, 185, 185);
+  border: 1px solid rgb(245, 245, 245);
   width: 500px;
   margin-left: 80px;
   height: 250px;
@@ -177,51 +225,67 @@ html {
   border-radius: 20px;
   margin-top: 50px;
   border: 1px solid rgb(187, 185, 185);
-  width: 500px;
+  width: 100%;
   margin-left: 80px;
   height: 250px;
   object-fit: cover;
+  border: 3px solid rgb(74, 74, 74);
 }
 .box3 img {
+  border-radius: 20px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
-  height: 100%;
-  border-radius: 20px;
 }
 .box4 {
   border-radius: 20px;
   margin-top: 50px;
   border: 1px solid rgb(187, 185, 185);
-  width: 250;
-  margin-left: 50px;
-  height: 250px;
+  width: 100%;
+  margin-left: 80px;
+  height: 255px;
   object-fit: cover;
+  border: 3px solid rgb(74, 74, 74);
 }
 .box4 img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
   border-radius: 20px;
-}
-.box5 {
-  border-radius: 20px;
-  margin-top: 50px;
-  border: 1px solid rgb(187, 185, 185);
-  width: 250;
-  margin-left: 50px;
   height: 250px;
-  object-fit: cover;
-  background-color: azure;
-}
-.box5 img {
   width: 100%;
   object-fit: cover;
-  height: 100%;
-  border-radius: 20px;
 }
+
 .layer1 {
   display: flex;
 }
 .layer2 {
   display: flex;
+  justify-content: center;
+}
+.list ul li :hover {
+  background-color: rgb(246, 246, 246);
+  color: black;
+  padding-right: 150px;
+}
+
+#demo {
+  position: relative;
+  top: 30px;
+  left: 40%;
+}
+#demo input {
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#demo button {
+  background-color: rgb(30, 30, 54);
+}
+#btn {
+  background-color: rgb(34, 34, 82);
+  color: aliceblue;
+  border-radius: 10px;
+}
+.main {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.354);
 }

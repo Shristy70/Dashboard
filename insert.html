@@ -14,50 +14,58 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap"
         rel="stylesheet">
+
     <style>
-        table {
+        .lowercon img {
+            position: absolute;
             width: 100%;
             height: 100%;
-            background-color: rgb(198, 198, 198);
-            font-size: 25px;
-            border: 3px solid black;
-
-
-
+            object-fit: cover;
         }
 
-        table thead {
+        #uperbox {
+            width: 100%;
+            height: 730px;
+            object-fit: cover;
             position: relative;
-            background-color: rgb(93, 93, 101);
-
+            background-color: rgba(29, 28, 28, 0.501);
         }
 
-
-
-        table tbody {
-            position: relative;
-            left: 20px;
-
+        #uperbox form {
+            position: absolute;
+            top: 30%;
+            left: 43%;
         }
 
-        #showdata {
-            font-size: 20px;
-            font-weight: 500;
-
-
+        form h2 {
+            font-size: 35px;
+            color: rgb(49, 48, 48);
+            margin-bottom: 10px;
         }
 
-        #showdata button {
-            padding: 5px;
+        form label {
+            font-size: 29px;
+            margin-right: 10px;
+        }
+
+        form input {
             font-size: 20px;
             border-radius: 10px;
-            background-color: rgb(41, 41, 79);
+            padding: 5px;
+        }
+
+        form button {
+            background-color: rgb(42, 41, 41);
             color: white;
+            padding: 12px;
+            font-size: 20px;
+            border-radius: 5px;
+
         }
     </style>
 </head>
 
-<body>
+<body id="back">
     <div class="container">
         <div class="left">
             <div class="admin">
@@ -71,12 +79,12 @@
             <div class="list">
                 <h1>Main manu</h1>
                 <ul>
-                    <li><a href="Dashboard.html"><i class="fa-solid fa-table-columns"></i>over</a></li>
+                    <li><a href="Dashboard.html"><i class="fa-solid fa-table-columns"></i>overview</a></li>
                     <li><a href="order.html"><i class="fa-solid fa-truck-fast"></i>Order</a></li>
 
                     <li><a href="table.html"><i class="fa-solid fa-table-list"></i>Table</a></li>
-                    <li><a href="insert.html"><i class="fa-regular fa-square-check"></i>Form</a></li>
-                    <li><a href="insert.html~"><i class="fa-solid fa-square-plus"></i>Insert</a></li>
+                    <li><a href="#"><i class="fa-regular fa-square-check"></i>Form</a></li>
+                    <li><a href="insert.html"><i class="fa-solid fa-square-plus"></i>Insert</a></li>
                     <li><a href="#"><i class="fa-solid fa-gear"></i>settig</a></li>
                 </ul>
                 <button>Sign Up <i class="fa-solid fa-user-plus"></i></button>
@@ -99,29 +107,29 @@
             </div>
 
             <div class="lowercon">
+
+                <img src="image/background.jpg" alt="" height="700px">
                 <div id="uperbox">
-                    <div id="d1">
-                        <table border="2px">
-                            <thead>
-                                <th>Customer_ID </th>
-                                <th>customer_name</th>
-                                <th>Food ITEM</th>
-                                <th>Totl_price</th>
-                                <th>Delete</th>
-                                <th>Edit</th>
-                            </thead>
-                            <tbody id="showdata"></tbody>
-                        </table>
+                    <div class="form">
+                        <form action="">
+                            <h2>add new data</h2>
+                            <label for="">id</label>
+                            <input type="text" placeholder="id" id="id"><br><br>
+                            <label for="">customer_name</label>
+                            <input type="text" placeholder="ener your name" id="name"><br><br>
+                            <label for="">food_item</label>
+                            <input type="text" placeholder="enter your items" id="item"><br><br>
+                            <label for="">total_price</label>
+                            <input type="text" placeholder="enter price" id="price"><br><br>
+                            <button onclick="insert()" id="btn2" type="submit">submit</button>
+                        </form>
                     </div>
                 </div>
 
-
             </div>
-            <div id="demo"></div>
         </div>
-
-
-        <script src=" script.js"></script>
+    </div>
+    <script src=" script.js"></script>
 </body>
 
 </html>
